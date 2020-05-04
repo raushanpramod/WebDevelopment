@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<head>
+    <title>table</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            padding: 5px;
+        }
+        
+        td:nth-child(odd) {
+            background-color: lightblue;
+        }
+        /*
+        tr:nth-child(even) {
+            background-color: lightgrey;
+        }*/
+        
+        th {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Ticket Sales Data</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Email Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">James</td>
+                <td rowspan="2">5</td>
+                <td rowspan="2">3</td>
+                <td rowspan="2">15</td>
+                <td>james@xxaa.com</td>
+            </tr>
+            <tr>
+                <td>semaj@aaxx.com</td>
+            </tr>
+            <tr>
+                <td>Jcsdvames</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+                <td>jcsdvames@xxaa.com</td>
+            </tr>
+            <tr>
+                <td>asd James</td>
+                <td>7</td>
+                <td>3</td>
+                <td>21</td>
+                <td>asd.james@xxaa.com</td>
+            </tr>
+            <tr>
+                <td>Jes</td>
+                <td>5</td>
+                <td>3</td>
+                <td>15</td>
+                <td>jes@xxaa.com</td>
+            </tr>
+            <tr>
+                <td>csdvames</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+                <td>csdvames@xxaa.com</td>
+            </tr>
+            <tr>
+                <td>d James</td>
+                <td>7</td>
+                <td>3</td>
+                <td>21</td>
+                <td>d.james@xxaa.com</td>
+            </tr>
+            <tr>
+                <td>ames</td>
+                <td>5</td>
+                <td>3</td>
+                <td>15</td>
+                <td>ames@xxaa.com</td>
+            </tr>
+            <tr>
+                <td>Jcsdmes</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+                <td>jcsdmes@xxaa.com</td>
+            </tr>
+            <tr>
+                <td>asd ames</td>
+                <td>7</td>
+                <td>3</td>
+                <td>21</td>
+                <td>asd.ames@xxaa.com</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
